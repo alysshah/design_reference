@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  background-color: #010101;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  margin: 0px 10px;
+}
+
+.bars {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.line1 {
+  background-color: #e77139;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.line2 {
+  background-color: #e7553c;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.line3 {
+  background-color: #e32e35;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.line4 {
+  background-color: #3355ae;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.line5 {
+  background-color: #332d75;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.line6 {
+  background-color: #251c37;
+  margin: 0px 5px;
+  width: 43.5px;
+  height: 140px;
+}
+
+.text {
+  color: #fdfffc;
+  margin-top: 222px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.idkhow {
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+}
+
+.idkhow_text {
+  font-size: 87px;
+  line-height: 0.9;
+  align-self: center;
+}
+
+.symbol {
+  margin-left: -45px;
+  margin-top: -35px;
+}
+
+.bottomtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.text1 {
+  font-size: 7px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.right {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text2 {
+  font-size: 8px;
+
+}
+
+.text3 {
+  font-size: 7px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.8;
+}
+
+
+
+.container2 {
+  background-color: #ea6360;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+
+.bar {
+  background-color: #2b2b2b;
+  color: #efeee6;
+  margin: 16.5px 16.5px;
+  padding: 2px 5px;
+  font-size: 7px;
+}
+
+.yuh {
+  display: flex;
+  color: #2b2b2b;
+  margin: 0px 16.5px;
+}
+
+.idkhow2 {
+  margin-top: -30px;
+  margin-left: -5px;
+  font-size: 94px;
+  padding-right: 10px;
+}
+
+.text2 {
+  margin-top: -7px;
+}
+
+.choke {
+  margin-top: 260px;
+}
+
+.choke-text-reg {
+  background: -webkit-linear-gradient(to top, #ea6360 40%, #efeee6 0%);
+  background: -moz-linear-gradient(to top, #ea6360 40%, #efeee6 0%);
+  background: linear-gradient(to top, #ea6360 40%, #efeee6 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 142px;
+  display: flex;
+  justify-content: center;
+  margin-left: -3px;
+  margin-top: -130px;
+}
+
+.choke-text {
+  color: #efeee6;
+  font-size: 142px;
+  display: flex;
+  justify-content: center;
+  margin-left: -3px;
+  margin-top: -130px;
+}
+
+.choke-text-last {
+  background: -webkit-linear-gradient(to top, #ea6360 62%, #efeee6 0%);
+  background: -moz-linear-gradient(to top, #ea6360 62%, #efeee6 0%);
+  background: linear-gradient(to top, #ea6360 62%, #efeee6 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 142px;
+  display: flex;
+  justify-content: center;
+  margin-left: -3px;
+  margin-top: -130px;
+}
+
+span.up {
+  margin-top: -42px;
+}
+
+span.none {
+  margin-top: 100px;
+  color: white;
+}
+
+pre {
+  font-family: inherit;
+}
+
+.cover {
+  width: 600px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  margin-top: -144px;
+}
+
+.overlay2 {
+  position: absolute;
+  opacity: 0.5;
+}
